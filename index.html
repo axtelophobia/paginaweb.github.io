@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<head>
+<!--Mariana Ramírez 5AMPR-->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=2">
+	<link rel="stylesheet" type="text/css" href="css.html">
+
+	<br><title align=center>&#128147;Formulario&#128147;</title>
+			<!--RELOJ--->
+			<script type="text/javascript">
+				 //RELOJ
+			function mostrar_fecha(){
+			var cl = document.getElementById("fecha");
+			cl.innerHTML = new Date();
+			}
+</script>
+</head>
+
+<body style="color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); background-image: url(https://img.freepik.com/free-vector/white-abstract-background_23-2148806276.jpg?w=2000); background-repeat: no-repeat;
+background-position: center 0%;">
+	<br><br>
+	<center>
+
+		<!--//RELOJ-->
+		<script type="text/javascript">
+		mostrar_fecha();
+		setInterval(mostrar_fecha, 1000);
+		</script>
+
+	<!--Título-->
+	<h2><center><font face="LEMON MILK light">FORMULARIO</font></h2><hr>
+
+		<!--NOMBRE-->
+		<font face="LEMON MILK light">Nombre</font><br>
+		<form id=nombre>
+			<input type="text" id="nombre" placeholder="INSERTAR NOMBRE" required pattern="[A-Z]{20}"/>
+		</form>
+		<br>
+		<!---DÍA-->
+		<font face="LEMON MILK light">Día</font><br>
+		<select name="selecciones">
+			<option>1</option>
+			<option>2</option>
+			<option>3</option>
+			<option>4</option>
+			<option>5</option>
+			<option>6</option>
+			<option>7</option>
+			<option>8</option>
+			<option>9</option>
+			<option>10</option>
+			<option>11</option>
+			<option>12</option>
+			<option>13</option>
+			<option>14</option>
+			<option>15</option>
+			<option>16</option>
+			<option>17</option>
+			<option>18</option>
+			<option>19</option>
+			<option>20</option>
+			<option>21</option>
+			<option>22</option>
+			<option>23</option>
+			<option>24</option>
+			<option>25</option>
+			<option>26</option>
+			<option>27</option>
+			<option>28</option>
+			<option>29</option>
+			<option>30</option>
+			<option>31</option>
+		</select>
+		<br><br>
+
+		<!---MES-->
+		<font face="LEMON MILK light">Mes</font><br>
+		<form id=mes>
+			<input type="text"required id="mes" placeholder="INSERTAR MES" required pattern="[1-12]{2}"/>
+		</form>
+		<br>
+
+		<!---AÑO-->
+		<font face="LEMON MILK light">Año</font>
+		<form id=año>
+			<input type="text"required id="año" placeholder="INSERTAR AÑO" required pattern="[2000-2023]{4}"/>
+		</form>
+
+		<br>
+    <form method = "post" >
+    <div>
+        <label><font face="LEMON MILK light">¿Cual es tu sexo?</font></label>
+        <input type = "radio" name = "preg1"/><font face="LEMON MILK light">Femenino</font>
+        <input type = "radio" name = "preg1"/><font face="LEMON MILK light">Masculino</font>
+    </div>
+ 
+    <input type = "submit" />
+</form>
+
+    <br>
+</center>
+<br><br><br>
+	<hr>
+		<font face="LEMON MILK light">Mariana Ramirez 5AMPR</font>
+</body>
+</html>
